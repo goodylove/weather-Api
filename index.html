@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather forcast from july 1 t0 july 16</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2
+      style="
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        font-size: 2rem;
+        color: beige;
+      "
+    >
+      You wanna know your city current weather?
+    </h2>
+    <div class="page-container">
+      <div class="container">
+        <input
+          type="search"
+          class="search"
+          placeholder="lat&lon of any city of your choice"
+        />
+        <div class="loader">
+          <div class="loadingio-spinner-dual-ball-jjnduxf22b8">
+            <div class="ldio-2z8e3zfmql8">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="display"></div>
+        <input type="button" value="Get weather" class="btn" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

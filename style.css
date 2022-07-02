@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+body {
+  background-image: url("img-2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+.search {
+  color: #ffffff;
+  border-radius: 5px;
+  width: 200px;
+  height: 33px;
+  border: 1px solid blue;
+  text-align: center;
+  background: transparent;
+  border-width: thin;
+  border-style: double;
+}
+.btn {
+  height: 34px;
+  width: 100px;
+  border-radius: 4px;
+  margin: 3px;
+  border: unset;
+}
+.btn:hover {
+  box-shadow: 2px 2px 4px 1px rgb(247, 247, 246);
+  transition: 1s ease-in-out;
+  transform: scale(300px);
+}
+
+.loader {
+  /* background-color: unset; */
+  display: none;
+}
+@keyframes ldio-2z8e3zfmql8-o {
+  0% {
+    opacity: 1;
+    transform: translate(0 0);
+  }
+  49.99% {
+    opacity: 1;
+    transform: translate(80px, 0);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(80px, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+}
+@keyframes ldio-2z8e3zfmql8 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(80px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.ldio-2z8e3zfmql8 div {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 60px;
+  left: 20px;
+}
+.ldio-2z8e3zfmql8 div:nth-child(1) {
+  background: #e90c59;
+  animation: ldio-2z8e3zfmql8 1s linear infinite;
+  animation-delay: -0.5s;
+}
+.ldio-2z8e3zfmql8 div:nth-child(2) {
+  background: #46dff0;
+  animation: ldio-2z8e3zfmql8 1s linear infinite;
+  animation-delay: 0s;
+}
+.ldio-2z8e3zfmql8 div:nth-child(3) {
+  background: #e90c59;
+  animation: ldio-2z8e3zfmql8-o 1s linear infinite;
+  animation-delay: -0.5s;
+}
+.loadingio-spinner-dual-ball-jjnduxf22b8 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-2z8e3zfmql8 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-2z8e3zfmql8 div {
+  box-sizing: content-box;
+}
